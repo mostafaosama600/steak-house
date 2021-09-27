@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Steak House</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Steak</span>Food</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu" id="myTopnav">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#menu" onclick="toggleMenu()">Menu</a></li>
+            <li><a href="#popular" onclick="toggleMenu()">Popular</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="info">
+            <h2>Discover and get the best food</h2>
+            <h5>come to us Delevry.pick up.</h5>
+            <a href="#">Go to menu <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <img src="./imgs/banner.jpg" width="60%" alt="">
+    </section>
+
+    <!-- social media -->
+    <section>
+        <ul class="social">
+            <li class="sc-item">
+                <a href="" class="sc-link">
+                    <i class="fab fa-facebook-f"></i>
+                    <span class="name">Facebook</span>
+                </a>
+            </li>
+            <li class="sc-item">
+                <a href="" class="sc-link">
+                    <i class="fab fa-instagram"></i>
+                    <span class="name">Instagram</span>
+                </a>
+            </li>
+            <li class="sc-item">
+                <a href="" class="sc-link">
+                    <i class="fab fa-twitter"></i>
+                    <span class="name">Twitter</span>
+                </a>
+            </li>
+            <li class="sc-item">
+                <a href="" class="sc-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="name">Linkedin</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="item-menu" id="menu">
+        <div class="card">
+            <div class="icon"><i class="fas fa-star"></i></div>
+            <h4 style="font-size: 35px;">Organic Food</h4>
+            <h5 style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
+            <a href="#">View more</a>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-hat-chef"></i></div>
+            <h4 style="font-size: 35px;">Teasty Food</h4>
+            <h5 style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
+            <a href="#">View more</a>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-heart"></i></div>
+            <h4 style="font-size: 35px;">Bure Food</h4>
+            <h5 style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
+            <a href="#">View more</a>
+        </div>
+    </section>
+
+    <!-- popular items -->
+    <section class="popular_item" id="popular">
+        <div class="info">
+            <h2 style="font-size: 30px;">What is special today ?</h2>
+            <h5 style="font-size: 28px;">Today special and popular items <br> <a href="#" class="link">View menu</a></h5>
+
+        </div>
+        <div class="itemBx">
+            <div class="box">
+                <img src="./imgs/item1.jpg" alt="">
+                <div class="infoBx">
+                    <h4>Special chees</h4>
+                    <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eius.</p>
+                    <br>
+                    <h5>$10.00</h5>
+                    <a href="#">Order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imgs/item2.jpg" alt="">
+                <div class="infoBx">
+                    <h4>Special solo</h4>
+                    <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eius.</p>
+                    <br>
+                    <h5>$20.00</h5>
+                    <a href="#">Order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imgs/item3.jpg" alt="">
+                <div class="infoBx">
+                    <h4>Special cheken</h4>
+                    <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eius.</p>
+                    <br>
+                    <h5>$40.00</h5>
+                    <a href="#">Order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imgs/item4.jpg" alt="">
+                <div class="infoBx">
+                    <h4>Special flas</h4>
+                    <p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, eius.</p>
+                    <br>
+                    <h5>$30.00</h5>
+                    <a href="#">Order now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="infoBx">
+            <h2 style="font-size: 35px;">About Us</h2>
+            <p style="font-size: 27px;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.commodi dolores sapiente 
+                <br> <br>
+                 accusantium ad corrupti aperiam quaerat ipsam! Neque nisi debitis quia illo.
+            </p>
+            <a href="#">View More</a>
+        </div>
+        <img src="./imgs/about.jpg" style="border-radius: 12px;" width="300px" alt="">
+    </section>
+
+    <!-- Gallery -->
+    <section class="imgGal" id="gallery">
+        <div class="box a">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box b">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box c">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box d">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box e">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box f">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box g">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box h">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box i">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box j">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="box k">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fas fa-map-marker"></i></div>
+                    <div class="text">
+                        <h3>Location</h3>
+                        <p>auhscdih  sdosdv, <br> 165455</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-hamburger"></i></div>
+                    <div class="text">
+                        <h3>Hamburger</h3>
+                        <p>auhscdih  sdosdv, <br> 165455</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-seedling"></i></div>
+                    <div class="text">
+                        <h3>Seedling</h3>
+                        <p>auhscdih  sdosdv, <br> 165455</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-cookie"></i></div>
+                    <div class="text">
+                        <h3>Cookie</h3>
+                        <p>auhscdih  sdosdv, <br> 165455</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactcform">
+                <form action="">
+                    <div class="inputBx">
+                        <input type="text" required>
+                        <span>Full name</span>
+                    </div>
+                    <div class="inputBx">
+                        <input type="gmail" required>
+                        <span>Gmail name</span>
+                    </div>
+                    <div class="inputBx">
+                        <input type="text" required>
+                        <span>Type Your Message</span>
+                    </div>
+                    <div class="inputBx">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="footer-left">
+            <h1>Steak <span>Food</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus soluta 
+                dicta corrupti obcaecati.
+            </p>
+            <br>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+
+        </div>
+        <ul class="footer-right">
+            <li class="projects">
+                <h2>Projects</h2>
+                <ul class="box">
+                    <li><a href="#">Html</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Javascript</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>features</h2>
+                <ul class="box">
+                    <li><a href="#">paris</a></li>
+                    <li><a href="#">cairo</a></li>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">london</a></li>
+                    <li><a href="#">spain</a></li>
+                </ul>
+            </li>
+            <li class="address">
+                <h2>address</h2>
+                <ul class="box">
+                    <li><a href="#">20 dh ao</a></li>
+                    <li><a href="#">560 a ad i</a></li>
+                    <li><a href="#">646 aksg sa</a></li>
+                    <li><a href="#">885 aldi w</a></li>
+                    <li><a href="#">462 arkj p</a></li>
+                </ul>
+            </li>
+        </ul>
+        <footer>
+            <div class="sitegy">
+                <p>SitegyTech 2021 | <a href="https://www.linkedin.com/in/mostafa-osama-34a23b214/">Mostafa Osama</a></p>
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- script js -->
+
+    <script>
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
